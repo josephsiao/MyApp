@@ -1,0 +1,4 @@
+/.vs
+/**/bin
+/**/obj
+/MyApp.API/MyApp.API.csproj.user
