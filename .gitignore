@@ -2,3 +2,4 @@
 /**/bin
 /**/obj
 /MyApp.API/MyApp.API.csproj.user
+/MyApp.API/logs/*.log

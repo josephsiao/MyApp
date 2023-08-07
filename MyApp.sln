@@ -29,6 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Persistence", "MyApp.
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Infrastructure", "MyApp.Infrastructure\MyApp.Infrastructure.csproj", "{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF} = {4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Shared", "MyApp.Shared\MyApp.Shared.csproj", "{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}"
 EndProject
