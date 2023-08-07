@@ -1,6 +1,6 @@
 ﻿using Dapper;
 using MyApp.Domain.Models;
-using MyApp.Domain.Repositories;
+using MyApp.Persistence.DataAccess.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp.Persistence.Repositories
+namespace MyApp.Persistence.DataAccess.Implementations
 {
     public class UserRepository : IUserRepository
     {

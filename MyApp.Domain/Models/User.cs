@@ -1,4 +1,4 @@
-﻿using MyApp.Shared.Common;
+﻿using MyApp.Shared.MappingHelpers;
 
 namespace MyApp.Domain.Models
 {

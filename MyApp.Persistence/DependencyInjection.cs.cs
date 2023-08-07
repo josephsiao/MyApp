@@ -1,15 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MyApp.Domain.Repositories;
-using MyApp.Persistence.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Dapper;
 using MyApp.Domain.Models;
-using MyApp.Shared.Common;
+using MyApp.Shared.MappingHelpers;
+using MyApp.Persistence.DataAccess.Implementations;
+using MyApp.Persistence.DataAccess.Interfaces;
 
 namespace MyApp.Persistence
 {

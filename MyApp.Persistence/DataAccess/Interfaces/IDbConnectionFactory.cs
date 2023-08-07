@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp.Persistence.Repositories
+namespace MyApp.Persistence.DataAccess.Interfaces
 {
     public interface IDbConnectionFactory
     {

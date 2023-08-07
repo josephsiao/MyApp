@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MyApp.Application.Contracts;
-using MyApp.Application.Services;
+using MyApp.Application.Services.Interfaces;
 
 namespace MyApp.API.Controllers
 {

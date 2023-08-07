@@ -1,13 +1,14 @@
 ﻿using AutoMapper;
 using MyApp.Application.Contracts;
-using MyApp.Domain.Repositories;
+using MyApp.Application.Services.Interfaces;
+using MyApp.Persistence.DataAccess.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp.Application.Services
+namespace MyApp.Application.Services.Implementations
 {
     public class UserService : IUserService
     {

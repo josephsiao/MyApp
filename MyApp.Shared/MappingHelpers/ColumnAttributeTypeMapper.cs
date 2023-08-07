@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyApp.Shared.Common
+namespace MyApp.Shared.MappingHelpers
 {
     /// <summary>
     /// Uses the Name value of the <see cref="ColumnAttribute"/> specified to determine

@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using MyApp.Application.Mappings;
-using MyApp.Application.Services;
+using MyApp.Application.Services.Implementations;
+using MyApp.Application.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
