@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using MyApp.Infrastructure.Logging;
 
 namespace MyApp.Infrastructure
 {
@@ -6,6 +7,7 @@ namespace MyApp.Infrastructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
+            services.AddSingleton<ISerilogConfigurator, SerilogConfigurator>();
             //services.AddSingleton<ISerilogConfigurator, SerilogConfigurator>();
 
             // 其他註冊...

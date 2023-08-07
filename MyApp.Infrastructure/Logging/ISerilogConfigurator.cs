@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Configuration;
 
-namespace MyApp.Shared.Common
+namespace MyApp.Infrastructure.Logging
 {
     public interface ISerilogConfigurator
     {

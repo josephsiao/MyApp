@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Serilog;
 
-namespace MyApp.Shared.Common
+namespace MyApp.Infrastructure.Logging
 {
     public class SerilogConfigurator: ISerilogConfigurator
     {
