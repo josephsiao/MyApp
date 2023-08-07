@@ -5,24 +5,32 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B9ED703B-FA51-4436-A4C9-D458DDE67014}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.API", "MyApp.API\MyApp.API.csproj", "{7AF3CCC1-FBCD-4469-B84E-DE54C126B6E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.API", "MyApp.API\MyApp.API.csproj", "{7AF3CCC1-FBCD-4469-B84E-DE54C126B6E5}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5D4F75BD-708C-4782-9E1F-26A2E1772C9C} = {5D4F75BD-708C-4782-9E1F-26A2E1772C9C}
 		{EFB32E11-FA00-4560-9D08-650C5D43957F} = {EFB32E11-FA00-4560-9D08-650C5D43957F}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Application", "MyApp.Application\MyApp.Application.csproj", "{EFB32E11-FA00-4560-9D08-650C5D43957F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Application", "MyApp.Application\MyApp.Application.csproj", "{EFB32E11-FA00-4560-9D08-650C5D43957F}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5D4F75BD-708C-4782-9E1F-26A2E1772C9C} = {5D4F75BD-708C-4782-9E1F-26A2E1772C9C}
 		{7521B01E-D30E-4966-98CB-2E7AEBFCA780} = {7521B01E-D30E-4966-98CB-2E7AEBFCA780}
 		{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A} = {F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Domain", "MyApp.Domain\MyApp.Domain.csproj", "{5D4F75BD-708C-4782-9E1F-26A2E1772C9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Domain", "MyApp.Domain\MyApp.Domain.csproj", "{5D4F75BD-708C-4782-9E1F-26A2E1772C9C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF} = {4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Persistence", "MyApp.Persistence\MyApp.Persistence.csproj", "{7521B01E-D30E-4966-98CB-2E7AEBFCA780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Persistence", "MyApp.Persistence\MyApp.Persistence.csproj", "{7521B01E-D30E-4966-98CB-2E7AEBFCA780}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF} = {4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Infrastructure", "MyApp.Infrastructure\MyApp.Infrastructure.csproj", "{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyApp.Infrastructure", "MyApp.Infrastructure\MyApp.Infrastructure.csproj", "{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp.Shared", "MyApp.Shared\MyApp.Shared.csproj", "{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -50,6 +58,10 @@ Global
 		{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F64C5489-2F03-4864-9E2F-1E8C0E5F7C6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE98D84-65C0-4DA1-913E-2BE586DAE1AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

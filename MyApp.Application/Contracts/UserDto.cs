@@ -10,6 +10,7 @@ namespace MyApp.Application.Contracts
     {
         public int Id { get; set; }
         public string Username { get; set; }
+        public string Mail { get; set; }
         // 其他屬性...
     }
 }

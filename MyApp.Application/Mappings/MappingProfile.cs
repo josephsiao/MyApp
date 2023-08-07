@@ -13,7 +13,8 @@ namespace MyApp.Application.Mappings
     {
         public MappingProfile()
         {
-            CreateMap<User, UserDto>();
+            CreateMap<User, UserDto>()
+                .ForMember(dest => dest.Mail, opt => opt.MapFrom(src => $"{src.Username}@example.com")); ;
         }
     }
 }
